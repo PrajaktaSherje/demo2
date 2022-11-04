@@ -1,0 +1,9 @@
+---
+ - name: project
+   hosts: all
+   tasks:
+   - name: Task-1
+     debug:
+         msg: "Welcome world"
+         
+...
