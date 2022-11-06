@@ -2,8 +2,8 @@
 - name: playbook_1
   hosts: all
   vars:
-   a: "Welcome to ansible"
-   b: "Welcome to Jenkins"
+   a: "Welcome to Jenkins-pipeline"
+   b: "Welcome to Jenkins-node"
   tasks:
    - name: task_1
      debug:
