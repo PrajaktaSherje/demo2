@@ -1,6 +1,6 @@
 ---
 - name: playbook_1
-  hosts: all
+  hosts: localhost
   vars:
    a: "Welcome to Jenkins-pipeline"
    b: "Welcome to Jenkins-node"
