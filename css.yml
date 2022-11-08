@@ -1,6 +1,6 @@
 ---
  - name: playbook01
-   hosts: all
+   hosts: localhost
    become: True
 
    tasks:
